@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Model artifacts and generated outputs
+# data/outputs/
+# *.npz
+# *.h5
+# *.pt
+# *.pth
+# *.ckpt
+
+# Local dataset files (do not push raw CMAPSS data)
+# data/CMAPSSData/train_*.txt
+# data/CMAPSSData/test_*.txt
+# data/CMAPSSData/RUL_*.txt
